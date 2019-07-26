@@ -9,5 +9,7 @@ end
 
 def turn(board)
   puts "Please enter 1-9:"
-  input = gets.chomp!
+  i = gets.chomp
+  if board[i - 1].empty?
+    board[i-1] = 
   
