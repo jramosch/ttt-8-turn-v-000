@@ -7,9 +7,18 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
+def valid_move?(board, index)
+  if board[index] == " "
+    return true
+  else
+    return false
+  end
+end
+
 def turn(board)
   puts "Please enter 1-9:"
   i = gets.chomp.to_i
   if board[i - 1].empty?
     board[i-1] = 
-  
+  end
+end
