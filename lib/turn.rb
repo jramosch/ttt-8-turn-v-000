@@ -28,7 +28,7 @@ def turn(board)
   i = input_to_index(gets.chomp)
   if valid_move?(board, i)
     move(board, i)
-    display_board
+    display_board(board)
   else
     turn(board)
   end
