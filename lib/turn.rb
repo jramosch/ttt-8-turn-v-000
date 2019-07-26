@@ -30,6 +30,6 @@ def turn(board)
     move(board, i)
     display_board
   else
-    
-  
+    turn(board)
+  end
 end
