@@ -26,6 +26,5 @@ end
 def turn(board)
   puts "Please enter 1-9:"
   i = gets.chomp.to_i
-  if board[i - 1].empty?
-  end
+
 end
